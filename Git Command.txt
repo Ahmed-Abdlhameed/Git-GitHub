@@ -21,7 +21,7 @@
   so if you added a file it will be staged for addition.
 
 λ git rm file-name || file-names || * (for all files & directories)
-- Used to completley remove the deleted files in the staging area,
+- Used to completely remove the deleted files in the staging area,
   so if you deleted a file it will be staged for removal just like add exactly but for removal.
 
 λ git restore file-name || file-names || * (for all files & directories)
@@ -95,11 +95,11 @@
 >> Stashing:
 
 λ git stash
-- Used to save the current on working files or changes in the staging area untill you need them.
+- Used to save the current on working files or changes in the staging area until you need them.
 
 λ git stash save "message"
-- Used to save the current on working files or changes in the staging area untill you need them in
-  addition to a message to know which stash contains what exactly in case of exsiting of multiple stashes.
+- Used to save the current on working files or changes in the staging area until you need them in
+  addition to a message to know which stash contains what exactly in case of existing of multiple stashes.
 
 λ git stash list
 - Used to know how many items you have in the stash.
@@ -144,13 +144,21 @@
 --------------------------------------------------------------------
 >> Resetting HEAD:
 
-λ git log:
-- Used to show the recent log of the current project and what branch exactly the HEAD is pointed at,
+λ git log
+- Used to show the "entire" recent log of the current project and what branch exactly the HEAD is pointed at,
+  as the HEAD is always pointed to the last commit, to get out of the log press "Q" button.
+
+λ git log --oneline
+- Used to show the "entire" recent log of the current project "As one line per commit" and what branch exactly
+the HEAD is pointed at, as the HEAD is always pointed to the last commit, to get out of the log press "Q" button.
+
+λ git log --oneline -10
+- Used to show the recent 10 logs of the current project and what branch exactly the HEAD is pointed at,
   as the HEAD is always pointed to the last commit, to get out of the log press "Q" button.
 
 λ git reset --hard (desired commit hash not including the brackets)
 - Used to point the head to the desired commit and delete the previous commits returning
-  the project to the state it was before at this specefic desired commit,
+  the project to the state it was before at this specific desired commit,
   after that use the command "git push remote-name branch-name --force" to update the branch. 
 
 --------------------------------------------------------------------
@@ -201,6 +209,6 @@
 λ git tag -l "v1.*"
 - Used to search in all tags for any tag that contain the word "v1.".
 
-> NOTE: Pushing tag to the repo comes after you push all your work to the repo as github will keep a copy of
-        all your files at this poing and save them in this tag so whenever you download this tag zip it'll
-        contain all the files of the project at this poing even if you have new files in your project.
+> NOTE: Pushing tag to the repo comes after you push all your work to the repo as GitHub will keep a copy of
+        all your files at this point and save them in this tag so whenever you download this tag zip it'll
+        contain all the files of the project at this point even if you have new files in your project.
