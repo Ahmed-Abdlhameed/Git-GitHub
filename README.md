@@ -2,8 +2,6 @@
 
 This repository contains a collection of topics, commands & notes to enhance understanding of Git and GitHub.
 
----
-
 ## Table of Contents
 
 1. [Git Diagram](#git-diagram)
@@ -14,15 +12,11 @@ This repository contains a collection of topics, commands & notes to enhance und
 6. [Contributions](#contributions)
 7. [License](#license)
 
----
-
 ## Git Diagram
 
 **Purpose**: This image explains the structure of Git and its workflow, including the working directory, staging area, local repository, and remote repository.
   
   ![View Image](Git%20Diagram.PNG)
-
----
 
 ## Git Commands
 
@@ -30,16 +24,12 @@ This repository contains a collection of topics, commands & notes to enhance und
 
     ![View File](Git%20Commands.txt)
 
----
-
 ## Writing on GitHub
 
 - **Purpose**: These GitHub pages provides a guideline on how to write and format the README.md file on GitHub.
 
   - [Basic Writing & Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
   - [Working With Advanced Formatting](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting)
-
----
 
 ## Additional Topics
 
@@ -64,19 +54,13 @@ This repository contains a collection of topics, commands & notes to enhance und
 - **#19: Tagging & Releasing Part-2.**  
    [Video Tutorial](https://youtu.be/hwui2N_DOfc)
 
----
-
 ## How to Use
 
 Navigate to the appropriate file to review its content.
 
----
-
 ## Contributions
 
 Feel free to fork the repository and contribute by adding more commands or notes. Pull requests are welcomed!
-
----
 
 ## License
 
