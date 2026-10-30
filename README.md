@@ -10,7 +10,7 @@ This repository contains a collection of topics, commands & notes to enhance und
 4. [Additional Topics](#additional-topics)
 5. [Getting Started (How to Use)](#getting-started-how-to-use)
 6. [Contributions (Adding Your Own Commands](#contributions-adding-your-own-commands)
-7. [License & Author](#license-author)
+7. [License & Author](#license--author)
 
 ## Git Diagram
 
