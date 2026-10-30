@@ -8,8 +8,8 @@ This repository contains a collection of topics, commands & notes to enhance und
 2. [Git Commands](#git-commands)
 3. [Writing on GitHub](#writing-on-github)
 4. [Additional Topics](#additional-topics)
-5. [How to Use](#how-to-use)
-6. [Contributions](#contributions)
+5. [Getting Started (How to Use)](#getting-started-how-to-use)
+6. [Contributions (Adding Your Own Commands](#contributions-adding-your-own-commands)
 7. [License](#license)
 
 ## Git Diagram
@@ -54,14 +54,14 @@ This repository contains a collection of topics, commands & notes to enhance und
 - **#19: Tagging & Releasing Part-2.**  
    [Video Tutorial](https://youtu.be/hwui2N_DOfc)
 
-## How to Use
+## Getting Started (How to Use)
 
 Navigate to the appropriate file to review its content.
 
-## Contributions
+## Contributions (Adding Your Own Commands)
 
 Feel free to fork the repository and contribute by adding more commands or notes. Pull requests are welcomed!
 
-## License
+## License & Author
 
-This repository is for personal documentation purposes. Feel free to use or distribute its content as you wish.
+This repository is for personal documentation purposes. Feel free to use or distribute its content as you wish. Built by **Ahmed Abdelhameed**. Find me on [GitHub](https://github.com/Ahmed-Abdlhameed).
